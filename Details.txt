@@ -1,0 +1,10 @@
+Usando o reset serve para voltar no tempo da linha do tempo do historico do projeto 
+
+git reset HashCOdeDoCommitEscolhido
+
+depois de ter feito isso se fizer um git status aqueles commits a frente estarãom como modificados 
+
+
+se desejar apagar todos os commits depois do escolhido rpita o codigo reset seguido da flag --hard 
+
+git reset HashCOdeDoCommitEscolhido --hard 
