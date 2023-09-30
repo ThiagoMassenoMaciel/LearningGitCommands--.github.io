@@ -8,3 +8,27 @@ depois de ter feito isso se fizer um git status aqueles commits a frente estarã
 se desejar apagar todos os commits depois do escolhido rpita o codigo reset seguido da flag --hard 
 
 git reset HashCOdeDoCommitEscolhido --hard 
+
+
+
+TIPOS DE RESET 
+
+  git reset 
+(tirar todos os files da stage area e keep somente commit mais recentes n mexe diretório de trabalho working space )
+
+  git reset HASHcomit
+
+FLAGS 
+  git reset --hard HASHcommit                ( voltar na linha to tempo e apagar todos commits a sua frente )
+
+  git reset file3                            ( tira este file do Stage are e n mexe mo working space) 
+
+
+
+  MODOS 
+    --merge
+    --keep 
+    --soft
+    --hard 
+    --mixed
+    
